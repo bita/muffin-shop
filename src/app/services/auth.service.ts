@@ -142,7 +142,6 @@ export class AuthService {
         errorMessage = 'Invalid cedential';
         break;
     }
-
     return throwError(() => new Error(errorMessage));
   }
 }
