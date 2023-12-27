@@ -43,7 +43,7 @@ input[type="email"] {
   font-weight: bold;
   outline: 0;
   margin-bottom: 20px;
-  padding-left: 0px;
+  padding-left: 4px;
   color: #ecf0f5;
 }
 
