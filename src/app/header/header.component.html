@@ -3,7 +3,7 @@
     <a class="navbar-brand" href="#">{{ "SHOP_NAME" | translate }} </a>
 
     <!-- mobile Menu -->
-    <div class="dropdown dropstart" appDropdown>
+    <div class="dropdown dropstart" appDropdown *ngIf="isAuthenticated">
       <button
         class="btn btn-secondary navbar-toggler"
         type="button"
@@ -11,7 +11,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <ul class="mb-2 mb-lg-0 dropdown-menu" togglable *ngIf="isAuthenticated">
+      <ul class="mb-2 mb-lg-0 dropdown-menu" togglable>
         <li class="dropdown-item" routerLinkActive="active">
           <a class="nav-link" aria-current="page" routerLink="/products">{{
             "PRODUCTS" | translate
