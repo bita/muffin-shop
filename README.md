@@ -1,5 +1,7 @@
 # Muffin-Shop
 
+See the live site [here](https://angular-bb68f.web.app/auth).
+
 Welcome to the Muffin-Shop project! This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
 
 ## Project Description
