@@ -4,7 +4,7 @@
 /dist
 /tmp
 /out-tsc
-/bazel-out
+/bazel-out 
 
 # Node
 /node_modules
@@ -15,7 +15,6 @@ yarn-error.log
 .idea/
 .project
 .classpath
-
 /src/environments/environment.ts
 /src/environments/environment.prod.ts
 
