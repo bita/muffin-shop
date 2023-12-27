@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="row">
+    <div class="list-unstyled">
+      <app-product-item
+        *ngFor="let productEl of products; let i = index"
+        [product]="productEl"
+        [i]="i"
+      ></app-product-item>
+    </div>
+  </div>
+</div>

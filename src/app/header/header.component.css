@@ -1,0 +1,34 @@
+.navbar-brand {
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  background: linear-gradient(to left, #89fffd, #ef32d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-link {
+  font-weight: 800;
+}
+.dropstart {
+  text-align: right;
+}
+.dropdown-menu.show {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  background: #e9f1f4;
+  text-align: center;
+}
+@media (max-width: 540px) {
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .dropstart {
+    text-align: center;
+    flex: auto;
+  }
+  .dropdown-menu.show {
+    width: 80px;
+  }
+}

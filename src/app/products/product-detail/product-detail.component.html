@@ -1,0 +1,19 @@
+<div class="row m-3">
+  <div class="card pt-3 pb-3 detail-box">
+    <img src="{{ theProduct.imagePath }}" class="card-img-top detail-img" />
+    <div class="card-body">
+      <h5 class="card-title d-flex justify-content-between">
+        {{ theProduct.name }}
+
+        <span class="card-price">
+          {{ theProduct.price }} {{ "CURRENCY_UNIT" | translate }}
+        </span>
+      </h5>
+
+      <p>{{ "ARTICLE_NUMBER" | translate }} : {{ theProduct.articleNumber }}</p>
+      <p class="card-text">
+        {{ theProduct.description }}
+      </p>
+    </div>
+  </div>
+</div>

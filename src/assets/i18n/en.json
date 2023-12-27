@@ -1,0 +1,17 @@
+{
+    "SHOP_NAME" : "Muffin Moments",
+    "LOGIN" : "Login",
+    "SIGNUP" : "Signup",
+    "EMAIL" : "EMAIL",
+    "PASSWORD" : "PASSWORD",
+    "DO_NOT_HAVE_AN_ACCOUNT" :"Dont have an account? Signup Here!",
+    "ALREADY_HAVE_AN_ACCOUNT" :"Already have an account? Login Here!",
+    "PRODUCTS" : "Muffins",
+    "AUTHENTICATE": "Login | Register",
+    "LOGOUT": "Logout",
+    "SHOPPING_BAG" : "Shopping Bag",
+    "NO_PRODUCT_TEXT" : "please select a product!",
+    "ARTICLE_NUMBER": "Article Nr.",
+    "CURRENCY_UNIT" : "€",
+    "ADD_TO_BASKET" : "Add to basket"
+}
