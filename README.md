@@ -6,7 +6,7 @@ Welcome to the Muffin-Shop project! This project was generated with [Angular CLI
 
 ## Project Description
 
-This project is a web application for a muffin shop. It allows users to browse through a variety of muffins, add them to a cart, and make a purchase.
+This project is a web application for a muffin shop. It allows users to signup, login and  browse through a variety of muffins.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ To get a local copy up and running, follow these simple steps:
 2. Install the dependencies using `npm install`
 3. Create a Firebase account and set up a new project
 4. In your Firebase project, create a database named 'product' with fields that match the product model in this project
-5. Obtain your Firebase API key and add it to the `environment.prod.ts` and `environment.ts` files in the `environment` folder, replacing 'YOUR_API_KEY'
+5. Obtain your Firebase API key and add it to `environment.ts` files in the `environment` folder, replacing 'YOUR_API_KEY'
 6. Remove the '.sample' from the `environment.sample.prod.ts` and `environment.sample.ts` file names
 7. Run the development server using `ng serve`
 
@@ -26,4 +26,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
